@@ -1,4 +1,5 @@
 import React from 'react';
+import Search from './components/Search';
 import './App.css';
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
           alt="Tiqets.com"
         />
       </header>
+      <main className="App-main">
+        <Search />
+      </main>
     </div>
   );
 }
