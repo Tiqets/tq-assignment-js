@@ -800,5 +800,60 @@
       "price": 5.0,
       "summary": "Plug into your fact-packed audioguide for a journey through the most visited site in Venice - St. Mark's Basilica. Explore the Byzantine art, get the facts on this 9th-century masterpiece, and continue the history trip with an optional audioguide for St Mark Square."
     }
+  ],
+
+  "users": [
+    { "id": 100, "name": "John Doe" },
+    { "id": 200, "name": "Sarah Connor" },
+    { "id": 300, "name": "Anonymous" }
+  ],
+  "favourites": [
+    {
+      "userId": 100,
+      "products": [
+        974981,
+        977045,
+        974265,
+        976930,
+        974863,
+        975846,
+        974598,
+        977147,
+        975111
+      ]
+    },
+    {
+      "userId": 200,
+      "products": [
+        975846,
+        974503,
+        976354,
+        974981,
+        974513,
+        975600,
+        974093,
+        975360,
+        974127,
+        974425,
+        974127
+      ]
+    },
+    {
+      "userId": 300,
+      "products": [
+        975846,
+        975490,
+        974081,
+        974863,
+        975378,
+        974503,
+        975163,
+        974124,
+        975462,
+        974496,
+        974460,
+        974647
+      ]
+    }
   ]
 }
