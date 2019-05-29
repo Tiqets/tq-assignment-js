@@ -1,68 +1,45 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tiqets.com Front-end assignment
 
-## Available Scripts
+Thanks for applying! This assignment allows Tiqets.com to assess your skills.
 
-In the project directory, you can run:
+Please fork or clone this repository to start working on it.
 
-### `npm start`
+## Before you start
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To do the assignment you need to have in your system:
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+- [git](https://git-scm.com/)
+- [Node LTS](https://nodejs.org/en/about/releases/) or above (Node 10.X.X at the time of writing)
+- [yarn](https://yarnpkg.com/en/)
 
-### `npm test`
+This README assumes you have these dependencies already. If you need instructions to install them they should be available in their respective websites.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## The development environment
 
-### `npm run build`
+You can fork or clone this repository to start working and use `yarn` to install the JS dependencies.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    $ git clone https://github.com/tiqets/tq-assignment-js.git
+    $ yarn
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+To start the development server, open a terminal and run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    $ yarn start
 
-### `npm run eject`
+A browser window should open with the development environment. Otherwise go to http://localhost:3000. You need to keep this terminal window running for the development server to work.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To run the tests, run:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    $ yarn test
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## The assignment
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+You can find a description of each task in the `tasks/` folder in this repository. The tasks are meant to be completed sequentially.
 
-## Learn More
+As you complete the tasks, use `git` as you would use it normally.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Submitting the assignment
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+There are two ways you can send us the complete assignment:
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Make your repo available somewhere. If you want to keep it private in github, add the user [@afgomez](https://github.com/afgomez/) as a collaborator.
+- Zip the folder (include the `.git/` folder in the zip) and mail it to us.
