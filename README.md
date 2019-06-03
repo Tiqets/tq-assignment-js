@@ -19,6 +19,7 @@ This README assumes you have these dependencies already. If you need instruction
 You can fork or clone this repository to start working and use `yarn` to install the JS dependencies.
 
     $ git clone https://github.com/tiqets/tq-assignment-js.git
+    $ cd tq-assignment-js
     $ yarn
 
 To start the development server, open a terminal and run:
