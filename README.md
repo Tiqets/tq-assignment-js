@@ -38,6 +38,8 @@ You can find a description of each task in the `tasks/` folder in this repositor
 
 As you complete the tasks, use `git` as you would use it normally.
 
+We estimate all tasks can be completed in around 2 hours, but you can take as long as you want to finish it.
+
 ## Submitting the assignment
 
 There are two ways you can send us the complete assignment:
