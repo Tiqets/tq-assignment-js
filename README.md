@@ -44,5 +44,5 @@ We estimate all tasks can be completed in around 2 hours, but you can take as lo
 
 There are two ways you can send us the complete assignment:
 
-- Make your repo available somewhere. If you want to keep it private in github, add the user [@afgomez](https://github.com/afgomez/) as a collaborator.
+- Make your repo available somewhere. If you want to keep it private in github, add the user [@tiqets-fe](https://github.com/tiqets-fe/) as a collaborator.
 - Zip the folder (include the `.git/` folder in the zip) and mail it to us.
