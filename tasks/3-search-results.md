@@ -10,6 +10,7 @@ The purpose of this task is to connect the search form and the API function of t
 - Use plan CSS for the styles.
 - The product summary must be limited to two lines.
 - All prices are in EUR.
+- Prices always have two decimals (i.e. `€19.00`)
 
 ## Colors, Fonts, Sizes
 
