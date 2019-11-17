@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
 .App-header {
   background-color: #47c4c6;
   color: white;
