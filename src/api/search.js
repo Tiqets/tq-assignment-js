@@ -16,6 +16,8 @@ const fetchSearchResults = (query) => {
       .then((res) => {
         if (res.status === 200) {
           resolve(res.data);
+        } else {
+          reject(new Error('Status Code: ', res.status));
         }
       }).catch((err) => {
         reject(err);

@@ -6,7 +6,7 @@ import './App.css';
 
 class App extends React.Component {
 // Usually there would be some sort of redux like state management,
-// but it seems a bit overkill for just manaing a couple of things
+// but it seems a bit overkill for just managing a couple of things
   constructor(props) {
     super(props);
     this.search = this.search.bind(this);
