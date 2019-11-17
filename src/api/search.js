@@ -1,7 +1,5 @@
 /* eslint-disable import/prefer-default-export */
-import http from 'http'; // Axios or another promised based http library would be usefull here
-import 'dotenv/config';
-
+import axios from 'axios'; // This is a super easy to use promise based fetch library, so much better than the default node implementation
 
 // (query: string) using typescript here would be simpler, or some other type checking helper
 const fetchSearchResults = (query) => {
@@ -13,24 +11,19 @@ const fetchSearchResults = (query) => {
     if (!query) { // Bail out if no query given
       resolve([]);
     }
-
-    const url = `${process.env.API_URL}/products?q=${encodeURIComponent(query)}`;
-    http.get(url, (res) => {
-      if (res.statusCode === 200) {
-        let data = '';
-        res.on('data', (chunk) => {
-          data += chunk;
-        });
-        res.on('end', () => {
-          resolve(JSON.parse(data));
-        });
-      } else {
-        reject(new Error(`GET failed with ${res.statusCode.toString()}`));
-      }
-    }).on('error', (err) => {
-      reject(err);
-    });
+    const url = `${process.env.REACT_APP_API_URL}/products?q=${encodeURIComponent(query)}`;
+    axios.get(url)
+      .then((res) => {
+        if (res.status === 200) {
+          resolve(res.data);
+        } else {
+          reject(new Error('Status Code: ', res.status));
+        }
+      }).catch((err) => {
+        reject(err);
+      });
   });
+
   return promise;
 };
 
