@@ -3,6 +3,7 @@
 exports[`renders the action button correctly with default props 1`] = `
 <button
   className="actionButton"
+  onClick={[Function]}
   role="button"
   type="button"
 >

@@ -1,0 +1,61 @@
+.ticketRow {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin: 16px 0px;
+  border: 1px #D6D8DC solid;
+  border-radius: 5px;
+  height: 200px;
+  color: #323C52;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.ticketRow_imageWrapper {
+  width: 200px;
+  flex-shrink: 0;
+  height: 200px;
+  overflow: hidden;
+  margin-right: 16px;
+}
+
+.ticketRow_imageWrapper_image {
+  width: 100%;
+  height: 100%;
+}
+
+.ticketRow_body {
+  padding-right: 16px;
+  position: relative;
+}
+
+.ticketRow_body_title {
+  font-weight: 500;
+  font-size: 22px;
+  margin: 16px 0;
+}
+
+.ticketRow_body_summary {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5em;
+  height: 3em;
+  overflow: hidden;
+  margin: 16px 0;
+}
+
+.ticketRow_body_priceWrapper {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+}
+
+.ticketRow_body_priceWrapper_price {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.ticketRow_body_priceWrapper_price:before {
+  content: '\20AC';
+}
