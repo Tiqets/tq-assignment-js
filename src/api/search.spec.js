@@ -1,27 +1,23 @@
-/* global describe, xit, expect */
+/* global describe, it, expect */
 import { fetchSearchResults } from './search';
 
 describe('fetchSearchResults', () => {
-  // Replace `xit` for `it` in each test
-  xit('Returns a promise', () => {
+  // Replace `it` for `it` in each test
+  it('Returns a promise', () => {
     expect(fetchSearchResults()).toBeInstanceOf(Promise);
   });
 
-  xit('Returns an empty response if no query is given', done => {
-    return fetchSearchResults().then(results => {
-      expect(results).toEqual([]);
-      done();
-    });
-  });
+  it('Returns an empty response if no query is given', (done) => fetchSearchResults().then((results) => {
+    expect(results).toEqual([]);
+    done();
+  }));
 
-  xit('Returns an empty response if query is ""', done => {
-    return fetchSearchResults('').then(results => {
-      expect(results).toEqual([]);
-      done();
-    });
-  });
+  it('Returns an empty response if query is ""', (done) => fetchSearchResults('').then((results) => {
+    expect(results).toEqual([]);
+    done();
+  }));
 
-  xit('Throws if query has not type `string`', () => {
+  it('Throws if query has not type `string`', () => {
     expect(() => {
       fetchSearchResults({});
     }).toThrow(TypeError);
@@ -43,7 +39,7 @@ describe('fetchSearchResults', () => {
     }).toThrow(TypeError);
   });
 
-  xit('Returns an array of products when a query is given', done => {
+  it('Returns an array of products when a query is given', (done) => {
     const expected = [
       {
         productUrl:
@@ -58,7 +54,7 @@ describe('fetchSearchResults', () => {
       },
     ];
 
-    return fetchSearchResults('sagrada familia').then(results => {
+    return fetchSearchResults('sagrada familia').then((results) => {
       expect(results).toEqual(expected);
       done();
     });
