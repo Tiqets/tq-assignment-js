@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './actionButton.css'
 
 /* Feel free to make this a functional component if you consider it necessary */
 const ActionButton = (props) => {
   const { label } = props
 
   return (
-    <button type="button">{label}</button>
+    <button className="actionButton" type="button">{label}</button>
   )
 };
 
