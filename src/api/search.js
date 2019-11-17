@@ -1,5 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 import http from 'http'; // Axios or another promised based http library would be usefull here
+import 'dotenv/config';
 
 
 // (query: string) using typescript here would be simpler, or some other type checking helper
@@ -13,7 +14,7 @@ const fetchSearchResults = (query) => {
       resolve([]);
     }
 
-    const url = `http://localhost:3001/products?q=${encodeURIComponent(query)}`;
+    const url = `${process.env.API_URL}/products?q=${encodeURIComponent(query)}`;
     http.get(url, (res) => {
       if (res.statusCode === 200) {
         let data = '';
