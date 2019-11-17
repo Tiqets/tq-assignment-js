@@ -1,3 +1,4 @@
+/* global describe, xit, expect */
 import { fetchSearchResults } from './search';
 
 describe('fetchSearchResults', () => {

@@ -3,11 +3,11 @@
   font-size: 16px;
   width: 100%;
   border-radius: 5px;
-  border: 1px solid #D6D8DC;
+  border: 1px solid #d6d8dc;
   padding: 0px 10px;
-  color: #323C52;
+  color: #323c52;
 }
 
 .input::placeholder {
-  color: #ADB1BA;
+  color: #adb1ba;
 }

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the input correctly with default props 1`] = `
+<input
+  className="input"
+  placeholder="Input"
+  type="text"
+/>
+`;
