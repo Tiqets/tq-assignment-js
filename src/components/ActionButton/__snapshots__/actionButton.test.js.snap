@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the action button correctly with default props 1`] = `
+<button
+  className="actionButton"
+  role="button"
+  type="button"
+>
+  Search
+</button>
+`;
