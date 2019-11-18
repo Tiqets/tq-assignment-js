@@ -7,16 +7,6 @@
   font-family: Roboto;
 }
 
-.App-header {
-  background-color: #47c4c6;
-  color: white;
-  padding: 24px;
-}
-
-.App-logo {
-  height: 40px;
-}
-
 .App-main {
   max-width: 800px;
   margin: 0 auto;
