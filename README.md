@@ -14,6 +14,16 @@ To do the assignment you need to have in your system:
 
 This README assumes you have these dependencies already. If you need instructions to install them they should be available in their respective websites.
 
+# .env File IMPORTANT
+
+Before startinf the development server, you will need to add a .env file to the root of the directory with the following content
+
+```
+REACT_APP_API_URL=http://localhost:3001
+```
+
+If you change the port or local address of the development server you will also need to update this url
+
 ## The development environment
 
 You can fork or clone this repository to start working and use `yarn` to install the JS dependencies.
