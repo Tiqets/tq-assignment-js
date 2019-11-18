@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import MenuItem from './components/MenuItem';
 import './navMenu.css';
 
-/* Feel free to make this a functional component if you consider it necessary */
 class NavMenu extends React.Component {
   constructor(props) {
     super(props);
@@ -27,7 +26,7 @@ class NavMenu extends React.Component {
     const closeMenuVisiblity = `${showMenu ? '' : 'navMenu_hamburger-hide'} navMenu_hamburger `;
 
     const menu = routes.map((route) => (
-      <MenuItem name={route.name} href={route.href} subRoutes={route.subRoutes} key={route.name + route.href} />
+      <MenuItem name={route.name} href={route.href} subRoutes={route.subRoutes} key={route.name} />
     ));
     return (
       <div className="navMenu">

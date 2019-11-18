@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './menuItem.css';
 
-/* Feel free to make this a functional component if you consider it necessary */
 const MenuItem = (props) => {
   const { name, href, subRoutes } = props;
   let menuItem;
@@ -15,7 +14,7 @@ const MenuItem = (props) => {
       </button>
     );
     const subMenuItems = subRoutes.map((route) => (
-      <a className="menuItem_subMenu_link" href={href} key={route.name + route.href}>{route.name}</a>
+      <a className="menuItem_subMenu_link" href={href} key={route.name}>{route.name}</a>
     ));
     subMenu = (
       <div className="menuItem_subMenu">
