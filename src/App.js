@@ -3,6 +3,7 @@ import Search from './components/Search';
 import SearchResults from './components/SearchResults';
 import { fetchSearchResults } from './api/search';
 import './App.css';
+import NavMenu from './nav-menu';
 
 class App extends React.Component {
 // Usually there would be some sort of redux like state management,
@@ -54,11 +55,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img
-            className="App-logo"
-            src="https://www.tiqets.com/static/assets/webpack/logo/logo-white-medium.0c98d94780.png"
-            alt="Tiqets.com"
-          />
+          <NavMenu />
         </header>
         <main className="App-main">
           <Search handleSearch={debouncedSearch} updateQuery={this.updateQuery} />
