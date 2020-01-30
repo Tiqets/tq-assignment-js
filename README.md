@@ -38,7 +38,7 @@ You can find a description of each task in the `tasks/` folder in this repositor
 
 As you complete the tasks, use `git` as you would use it normally.
 
-We estimate all tasks can be completed in around 4 hours, but you can take as long as you want to finish it.
+We estimate all tasks can be completed in around 2 hours, but you can take as long as you want to finish it.
 
 Try not to use any external dependencies. If you need to do so, please tell us the reasoning behind adding it, and the tradeoffs of doing so
 
