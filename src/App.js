@@ -1,5 +1,5 @@
 import React from 'react';
-import Search from './components/Search';
+import SearchForm from './Views/SearchForm';
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         />
       </header>
       <main className="App-main">
-        <Search />
+        <SearchForm />
       </main>
     </div>
   );
