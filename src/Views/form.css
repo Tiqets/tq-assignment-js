@@ -1,0 +1,52 @@
+.form {
+    font-family: "Roboto", "sans-serif";
+}
+
+.from--container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.form__label {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.form__cell {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.form__cell-input {
+    color: #323C52;
+    height: 50px;
+    font-size: 16px;
+    border: 2px solid #D6D8DC;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding:0 10px;
+    flex-grow: 2;
+}
+
+.form__cell-input:focus {
+    outline: none;
+}
+
+
+.form__cell-input::placeholder {
+    color: #ADB1BA;
+}
+
+.form__cell-button {
+    background-color: #018794;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 50px;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+

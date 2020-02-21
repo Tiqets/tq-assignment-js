@@ -31,3 +31,6 @@ We provide already a dumb component in `components/Search.js`. Right now it's a 
 - The form must be responsive. It must adapt to the width of the container.
 - Imagine we want to reuse the `<input />` and the `<button>` in other places. How would you make those two pieces reusable?
 - Is a spec file needed for this task? If yes, what would you test in the spec? If no, why not?
+
+I do not think we need to tests our components in this stage.
+There is no user behavior at this first assignment. 
