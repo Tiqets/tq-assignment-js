@@ -4,7 +4,7 @@ import React from 'react';
 import InputGroup from '../InputGroup';
 import Label from './Label';
 
-const InputField = ({ name, placeholder, className, onChange }) => (
+const InputField = ({ name, placeholder, className, onChange, ...props }) => (
   <input
     type="text"
     id={`input-${name}`}
@@ -12,8 +12,8 @@ const InputField = ({ name, placeholder, className, onChange }) => (
     className={className || 'form__cell-input'}
     placeholder={placeholder}
     onChange={onChange}
+    {...props}
   />
-  < />
 );
 
 const Input = props => <InputGroup {...props} component={InputField} />;
